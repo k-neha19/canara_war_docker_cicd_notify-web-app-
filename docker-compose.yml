@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  canara_app:
+    image: sakit333/canara_sak
+    container_name: canara_app_sak
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8085:8080"
+    restart: always

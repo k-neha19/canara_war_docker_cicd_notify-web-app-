@@ -1,0 +1,134 @@
+/* Canara Project UI - Designed by sak_shetty */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f4f7fb;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #003883;
+  color: white;
+  padding: 18px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+header .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: .3s;
+}
+
+header nav ul li a:hover {
+  opacity: .8;
+}
+
+/* Hero Banner */
+#hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(90deg, #0047ac, #0070e6);
+  color: white;
+}
+
+#hero h2 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+#hero p {
+  font-size: 18px;
+  margin: 12px 0 25px;
+}
+
+#hero a {
+  background: white;
+  color: #003f9c;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 5px 16px rgba(0,0,0,0.3);
+  transition: .3s;
+}
+
+#hero a:hover {
+  background: #e9e9e9;
+}
+
+/* Pipeline */
+#pipeline {
+  padding: 80px 30px;
+}
+
+#pipeline h3 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.pipeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+}
+
+.pipeline-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.pipeline-box:hover {
+  transform: translateY(-6px);
+}
+
+/* About */
+#about {
+  background: #e8eef7;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#about h3 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+/* Footer */
+footer {
+  background: #003883;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  font-weight: 600;
+}
